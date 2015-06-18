@@ -9,9 +9,43 @@
   <title>Home</title>
 </head>
 
-  <body class="<%= page_classes %>">
-    <%= yield %>
-    <script type="text/javascript" src="jQuery/jquery-1.11.3.js"></script>
-    <%= javascript_include_tag "moves" %>
-  </body>
+<body class="<%= page_classes %>">
+  <nav class="navleft">
+    <ul>
+      <li><a href="index.html"><i class=" fa fa-home"></i><br>Home</a></li>
+      <li><a href="resume.html"><i class="fa fa-columns"></i><br>Resume</a></li>
+    </ul>
+  </nav>
+
+  <nav class="navtop">
+    <span id="menutoggle" class="fa fa-bars fa-2x"></span>  
+    <div id="navmob" class="hidden" >
+      <ul>
+        <li>
+          <a href="index.html"><i class=" fa fa-home"></i><br>Home</a>
+        </li>
+        <li>
+          <a href="portfolio.html"><i class="fa fa-book"></i><br>Portfolio</a>
+        </li>
+        <li>
+          <a href="resume.html"><i class="fa fa-columns"></i><br>Resume</a>
+        </li>
+        <li>
+          <a href="contact.html"><i class="fa fa-comment"></i><br>Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <%= yield %>
+
+  <nav class="navright">
+    <ul>
+      <li><a href="portfolio.html"><i class="fa fa-book"></i><br>Portfolio</a></li>
+      <li><a href="contact.html"><i class="fa fa-comment"></i><br>Contact</a></li>
+    </ul>
+  </nav>
+  <script type="text/javascript" src="jQuery/jquery-1.11.3.js"></script>
+  <%= javascript_include_tag "moves" %>
+</body>
 </html>

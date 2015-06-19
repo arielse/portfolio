@@ -169,7 +169,7 @@ a {
 #info {
 	position: absolute;
 	top: 11.25em;
-	bottom: 30%;
+	bottom: 5%;
 	right: 0;
 	width: 100%;
 	overflow: hidden;
@@ -249,10 +249,20 @@ a {
 		right: 15%;
 		max-width: 70%;
 		top: 10%;
+		bottom: 30%;
 	}
 
 	li {
 		font-size: 0.7em;
+	}
+
+	.about, #info {
+		padding-top: 1em;
+		line-height: 2.5em;
+	}
+
+	#info li {
+		font-size: 1.2em;
 	}
 
 }
@@ -317,7 +327,13 @@ a {
 		right: 10%;
 		max-width: 80%;
 		top: 7.9em;
+		bottom: 30%;
 	}
+
+	#info li {
+		font-size: 1.2em;
+	}
+
 
 	.folio {
 		max-width: 30%;
@@ -332,6 +348,14 @@ a {
 
 	a {
 		font-size: 1em;
+	}
+	.contactInfo li {
+		margin-left: 38%;
+	}
+	.about {
+		margin-left: 20%;
+		margin-right: 20%;
+		line-height: 2.3em;
 	}
 
 }

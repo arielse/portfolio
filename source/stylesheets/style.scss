@@ -145,7 +145,7 @@ a {
 .folio {
 	margin-right: 0.625em;
 	margin-left: 0.625em;
-	margin-bottom: 1.25em;
+	margin-bottom: 2em;
 
 }
 
@@ -218,6 +218,26 @@ a {
 .ariel1 {
 	margin-bottom: 1em;
 }
+
+.portInfo {
+		margin-right: 5%;
+		margin-left: 5%;
+		line-height: 2em;
+	
+	}
+
+	.portInfo p {
+		margin-bottom: 1.5em;
+	}
+	.portInfo ul {
+		list-style: disc;
+		text-align: left;
+		font-size: 1em;
+		margin-left: 6%;
+		margin-bottom: 2.5em;
+	}
+
+
 
 /* For small - medium tablets and screens */
 
@@ -298,6 +318,15 @@ a {
 		width: 76%;
 		margin-right: 12%;
 		margin-left: 12%;
+	}
+
+	.sun {
+		max-width: 30%;
+
+	}
+
+	.portInfo ul {
+		font-size: 1.7em;
 	}
 
 }
@@ -402,6 +431,11 @@ a {
 		margin-right: 20%;
 		margin-left: 20%;
 	}
+
+	.portInfo ul {
+		font-size: 1.2em;
+	}
+
 
 }
 

@@ -194,6 +194,12 @@ a {
 	width: 300px;
 }
 
+.ariel {
+	width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
 /* For small - medium tablets and screens */
 
 @media only screen and (min-width: 768px)  {
@@ -263,6 +269,16 @@ a {
 
 	#info li {
 		font-size: 1.2em;
+	}
+	.about {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.ariel {
+		width: 76%;
+		margin-right: 12%;
+		margin-left: 12%;
 	}
 
 }
@@ -356,6 +372,12 @@ a {
 		margin-left: 20%;
 		margin-right: 20%;
 		line-height: 2.3em;
+	}
+
+	.ariel {
+		width: 60%;
+		margin-right: 20%;
+		margin-left: 20%;
 	}
 
 }

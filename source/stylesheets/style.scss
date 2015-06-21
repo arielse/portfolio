@@ -35,6 +35,12 @@ h1 {
 	padding-left: 0.625em;
 }
 
+.second {
+	margin-bottom: 3em;
+}
+
+
+
 .fa-bars {
 	position: absolute;
 	top: 0.25em;
@@ -190,10 +196,6 @@ a {
 	text-align: left;
 }
 
-.ad {
-	width: 300px;
-}
-
 .ariel {
 	width: 95%;
 	margin-left: 2.5%;
@@ -211,6 +213,10 @@ a {
 .resumeDiv {
 	text-align: center;
 	margin-top: 7em;
+}
+
+.ariel1 {
+	margin-bottom: 1em;
 }
 
 /* For small - medium tablets and screens */
@@ -385,6 +391,10 @@ a {
 		margin-left: 20%;
 		margin-right: 20%;
 		line-height: 2.3em;
+	}
+
+	.second {
+		margin-bottom: 6em;
 	}
 
 	.ariel {

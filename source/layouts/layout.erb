@@ -37,7 +37,9 @@
     </div>
   </nav>
 
-  <%= yield %>
+  <main>
+    <%= yield %>
+  </main>
 
   <nav class="navright">
     <ul>
@@ -45,6 +47,7 @@
       <li><a href="contact.html" class="side-link"><i class="fa fa-comment"></i><br>Contact</a></li>
     </ul>
   </nav>
+
   <%= javascript_include_tag "https://code.jquery.com/jquery-1.11.3.min.js", "moves" %>
 </body>
 </html>

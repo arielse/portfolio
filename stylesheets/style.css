@@ -2325,13 +2325,13 @@ a {
 
 /* line 158, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .folio {
-  -webkit-box-flex: 600px;
-  -moz-box-flex: 600px;
-  box-flex: 600px;
-  -webkit-flex: 600px;
-  -moz-flex: 600px;
-  -ms-flex: 600px;
-  flex: 600px;
+  -webkit-box-flex: 500px;
+  -moz-box-flex: 500px;
+  box-flex: 500px;
+  -webkit-flex: 500px;
+  -moz-flex: 500px;
+  -ms-flex: 500px;
+  flex: 500px;
   margin-right: 0.625em;
   margin-left: 0.625em;
   margin-bottom: 2em; }
@@ -2620,10 +2620,10 @@ a {
 @media only screen and (min-width: 1250px) {
   /* line 179, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
   .navleft, .navright {
-    width: 200px; }
+    width: 160px; }
     /* line 183, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
     .navleft ul, .navright ul {
-      width: 200px; }
+      width: 160px; }
 
   /* line 188, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
   .navleft li, .navright li {

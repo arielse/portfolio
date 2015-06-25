@@ -195,10 +195,10 @@
 @media only screen and (min-width: 1250px) {
   /* line 179, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
   .navleft, .navright {
-    width: 200px; }
+    width: 160px; }
     /* line 183, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
     .navleft ul, .navright ul {
-      width: 200px; }
+      width: 160px; }
 
   /* line 188, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
   .navleft li, .navright li {

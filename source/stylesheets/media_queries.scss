@@ -1,16 +1,35 @@
 /* For small - medium tablets and screens */
 
 @media only screen and (min-width: 768px)  {
-
-
 	body {
-
 		display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 	}
+
+  .container {
+    display: flex;
+    flex: 1;
+  }
 
 	main {
-		min-width: 70%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
 	}
+
+  .navleft, .navright {
+    position: relative;
+    display: block;
+    $width: 100px;
+    width: $width;
+
+    ul {
+      position: fixed;
+      bottom: 50px;
+      width: $width;
+    }
+  }
 
 	ul {
 		list-style: none;
@@ -28,17 +47,7 @@
 		display: none;
 	}
 
-	.navleft, .navright {
-		display: unset;
-		min-width: 15%;
-	}
 
-	.navleft ul, .navright ul {
-		list-style: none;
-		margin-top: 25em;
-		position: fixed;
-		margin-right: 3em;
-	}
 
 	.navleft li, .navright li {
 		margin-top: 20%;
@@ -96,15 +105,6 @@
 
 @media only screen and (min-width: 1100px) {
 
-	body {
-
-		display: flex;
-	}
-
-	main {
-		min-width: 80%;
-	}
-
 	ul {
 		list-style: none;
 	}
@@ -121,27 +121,17 @@
 		font-size: 1em;
 	}
 
-
-	.navtop {
-		display: none;
-	}
-
 	.navleft, .navright {
-		display: unset;
-		min-width: 10%;
-	}
+    $width: 150px;
+    width: $width;
 
-	.navleft ul, .navright ul {
-		list-style: none;
-		margin-top: 25em;
-		position: fixed;
-		text-align: center;
-	}
+    ul {
+      width: $width;
+    }
 
-	.navleft li, .navright li {
-		margin-top: 20%;
-		font-size: 1em;
-		margin-right: 2.5em;
+    li {
+      font-size: 1em;
+    }
 	}
 
 	#info {
@@ -200,12 +190,19 @@
 
 	.folio {
 		max-width: 48%;
-
 	}
+
+  .navleft, .navright {
+    $width: 200px;
+    width: $width;
+
+    ul {
+      width: $width;
+    }
+  }
 
 	.navleft li, .navright li {
 		font-size: 1.3em;
-		margin-right: .9em;
 	}
 
 }

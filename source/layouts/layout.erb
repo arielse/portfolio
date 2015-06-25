@@ -10,43 +10,45 @@
 </head>
 
 <body class="<%= page_classes %>">
-  <nav class="navleft">
-    <ul>
-      <li><a href="index.html" class="side-link"><i class=" fa fa-home"></i><br>Home</a></li>
-      <li><a href="resume.html" class="side-link"><i class="fa fa-columns"></i><br>Resume</a></li>
-    </ul>
-  </nav>
-
-  <nav class="navtop">
-    <span id="menutoggle" class="fa fa-bars fa-2x"></span>
-    <div id="navmob" class="hidden" >
+  <div class="container">
+    <nav class="navleft">
       <ul>
-        <li>
-          <a href="index.html"><i class=" fa fa-home"></i><br>Home</a>
-        </li>
-        <li>
-          <a href="portfolio.html"><i class="fa fa-book"></i><br>Portfolio</a>
-        </li>
-        <li>
-          <a href="resume.html"><i class="fa fa-columns"></i><br>Resume</a>
-        </li>
-        <li>
-          <a href="contact.html"><i class="fa fa-comment"></i><br>Contact</a>
-        </li>
+        <li><a href="index.html" class="side-link"><i class=" fa fa-home"></i><br>Home</a></li>
+        <li><a href="resume.html" class="side-link"><i class="fa fa-columns"></i><br>Resume</a></li>
       </ul>
-    </div>
-  </nav>
+    </nav>
 
-  <main>
-    <%= yield %>
-  </main>
+    <nav class="navtop">
+      <span id="menutoggle" class="fa fa-bars fa-2x"></span>
+      <div id="navmob" class="hidden" >
+        <ul>
+          <li>
+            <a href="index.html"><i class=" fa fa-home"></i><br>Home</a>
+          </li>
+          <li>
+            <a href="portfolio.html"><i class="fa fa-book"></i><br>Portfolio</a>
+          </li>
+          <li>
+            <a href="resume.html"><i class="fa fa-columns"></i><br>Resume</a>
+          </li>
+          <li>
+            <a href="contact.html"><i class="fa fa-comment"></i><br>Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-  <nav class="navright">
-    <ul>
-      <li><a href="portfolio.html" class="side-link"><i class="fa fa-book"></i><br>Portfolio</a></li>
-      <li><a href="contact.html" class="side-link"><i class="fa fa-comment"></i><br>Contact</a></li>
-    </ul>
-  </nav>
+    <main>
+      <%= yield %>
+    </main>
+
+    <nav class="navright">
+      <ul>
+        <li><a href="portfolio.html" class="side-link"><i class="fa fa-book"></i><br>Portfolio</a></li>
+        <li><a href="contact.html" class="side-link"><i class="fa fa-comment"></i><br>Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 
   <%= javascript_include_tag "https://code.jquery.com/jquery-1.11.3.min.js", "moves" %>
 </body>

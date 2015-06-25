@@ -84,17 +84,15 @@ h1 {
 #navmob, .navright, .navleft {
 	background-color: #e4fc43;
 	text-decoration: none;
-	width: 50%;
 }
 
-#navmob li, .navright, .navleft {
+#navmob li {
 	padding-top: 1.6em;
 	text-align: center;
 	min-width: 160px;
 }
 
 ul {
-	min-width: 160px;
 	text-align: center;
 }
 

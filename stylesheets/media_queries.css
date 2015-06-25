@@ -1,0 +1,205 @@
+/* For small - medium tablets and screens */
+@media only screen and (min-width: 768px) {
+  /* line 6, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  body {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    min-height: 100vh; }
+
+  /* line 12, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  .container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+
+  /* line 17, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  main {
+    -webkit-flex-grow: 1;
+    -moz-flex-grow: 1;
+    flex-grow: 1;
+    -ms-flex-positive: 1;
+    -webkit-flex-shrink: 0;
+    -moz-flex-shrink: 0;
+    flex-shrink: 0;
+    -ms-flex-negative: 0;
+    -webkit-flex-basis: 200px;
+    -moz-flex-basis: 200px;
+    flex-basis: 200px;
+    -ms-flex-preferred-size: 200px; }
+
+  /* line 23, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  .navleft, .navright {
+    position: relative;
+    display: block;
+    width: 100px; }
+    /* line 29, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+    .navleft ul, .navright ul {
+      position: fixed;
+      bottom: 50px;
+      width: 100px; }
+
+  /* line 36, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  ul {
+    list-style: none; }
+
+  /* line 40, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  h1 {
+    font-size: 3em; }
+
+  /* line 44, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  p {
+    font-size: 1.2em; }
+
+  /* line 48, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  .navtop {
+    display: none; }
+
+  /* line 52, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  .navleft li, .navright li {
+    margin-top: 20%; }
+
+  /* line 56, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  .contactInfo li {
+    margin-left: 35%; }
+
+  /* line 60, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  #info {
+    right: 15%;
+    max-width: 70%;
+    top: 10%;
+    bottom: 30%; }
+
+  /* line 67, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  li {
+    font-size: 0.7em; }
+
+  /* line 71, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  .about, #info {
+    padding-top: 1em;
+    line-height: 2.5em; }
+
+  /* line 76, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  #info li {
+    font-size: 1.2em; }
+
+  /* line 79, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  .about {
+    margin-left: 10%;
+    margin-right: 10%; }
+
+  /* line 84, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  .ariel {
+    width: 76%;
+    margin-right: 12%;
+    margin-left: 12%; }
+
+  /* line 90, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  .sun {
+    max-width: 30%; }
+
+  /* line 95, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  .portInfo ul {
+    font-size: 1.7em; } }
+/* for desktop and larger tablet screens */
+@media only screen and (min-width: 1100px) {
+  /* line 108, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  ul {
+    list-style: none; }
+
+  /* line 112, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  h1 {
+    font-size: 2.6em; }
+
+  /* line 116, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  p {
+    font-size: 1.2em; }
+
+  /* line 120, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  li {
+    font-size: 1em; }
+
+  /* line 124, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  .navleft, .navright {
+    width: 150px; }
+    /* line 128, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+    .navleft ul, .navright ul {
+      width: 150px; }
+    /* line 132, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+    .navleft li, .navright li {
+      font-size: 1em; }
+
+  /* line 137, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  #info {
+    right: 10%;
+    max-width: 80%;
+    top: 7.9em;
+    bottom: 30%; }
+
+  /* line 144, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  #info li {
+    font-size: 1.2em; }
+
+  /* line 148, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  a {
+    font-size: 1em; }
+
+  /* line 151, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  .contactInfo li {
+    margin-left: 38%; }
+
+  /* line 154, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  .about {
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 2.3em; }
+
+  /* line 160, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  .second {
+    margin-bottom: 6em; }
+
+  /* line 164, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  .ariel {
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%; }
+
+  /* line 170, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  .portInfo ul {
+    font-size: 1.2em; } }
+@media only screen and (min-width: 1250px) {
+  /* line 179, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  .navleft, .navright {
+    width: 200px; }
+    /* line 183, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+    .navleft ul, .navright ul {
+      width: 200px; }
+
+  /* line 188, /Users/Ariel/dev/portfolio/source/stylesheets/media_queries.scss */
+  .navleft li, .navright li {
+    font-size: 1.3em; } }

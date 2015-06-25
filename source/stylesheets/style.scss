@@ -1,5 +1,6 @@
 @import "font-awesome";
 
+
 * {
 	margin: 0;
 	padding: 0;
@@ -8,7 +9,6 @@
 }
 
 body {
-	font-family: arial, sans-serif;
 	margin: auto;
 	font-family: menlo, monaco, monospace;
 	position: relative;
@@ -18,6 +18,15 @@ body {
 .navleft, .navright {
 	display: none;
 	min-height: 100vh;
+}
+
+.side-link {
+	color: #333;
+	transition: color 0.3s;
+
+	&:hover {
+		color: #555;
+	}
 }
 
 .navtop {
@@ -101,7 +110,6 @@ a {
 
 .fa-home, .fa-comment, .fa-book, .fa-columns {
 	font-size: 3.5em;
-	color: #333;
 }
 
 .contactPic {
@@ -222,233 +230,21 @@ a {
 }
 
 .portInfo {
-		margin-right: 5%;
-		margin-left: 5%;
-		line-height: 2em;
-	
-	}
+	margin-right: 5%;
+	margin-left: 5%;
+	line-height: 2em;
 
-	.portInfo p {
+	p {
 		margin-bottom: 1.5em;
 	}
-	.portInfo ul {
+
+	ul {
 		list-style: disc;
 		text-align: left;
 		font-size: 1em;
 		margin-left: 6%;
 		margin-bottom: 2.5em;
 	}
-
-
-
-/* For small - medium tablets and screens */
-
-@media only screen and (min-width: 768px)  {
-
-
-	body {
-
-		display: flex;
-	}
-
-	main {
-		min-width: 70%;
-	}
-
-	ul {
-		list-style: none;
-	}
-
-	h1 {
-		font-size: 3em;
-	}
-
-	p {
-		font-size: 1.2em;
-	}
-
-	.navtop {
-		display: none;
-	}
-
-	.navleft, .navright {
-		display: unset;
-		min-width: 15%;
-	}
-
-	.navleft ul, .navright ul {
-		list-style: none;
-		margin-top: 25em;
-		position: fixed;
-		margin-right: 3em;
-	}
-
-	.navleft li, .navright li {
-		margin-top: 20%;
-	}
-
-	.contactInfo li {
-		margin-left: 35%;
-	}
-
-	#info {
-		right: 15%;
-		max-width: 70%;
-		top: 10%;
-		bottom: 30%;
-	}
-
-	li {
-		font-size: 0.7em;
-	}
-
-	.about, #info {
-		padding-top: 1em;
-		line-height: 2.5em;
-	}
-
-	#info li {
-		font-size: 1.2em;
-	}
-	.about {
-		margin-left: 10%;
-		margin-right: 10%;
-	}
-
-	.ariel {
-		width: 76%;
-		margin-right: 12%;
-		margin-left: 12%;
-	}
-
-	.sun {
-		max-width: 30%;
-
-	}
-
-	.portInfo ul {
-		font-size: 1.7em;
-	}
-
 }
 
-
-
-
-/* for desktop and larger tablet screens */
-
-@media only screen and (min-width: 1100px) {
-
-	body {
-
-		display: flex;
-	}
-
-	main {
-		min-width: 80%;
-	}
-
-	ul {
-		list-style: none;
-	}
-
-	h1 {
-		font-size: 2.6em;
-	}
-
-	p {
-		font-size: 1.2em;
-	}
-
-	li {
-		font-size: 1em;
-	}
-
-
-	.navtop {
-		display: none;
-	}
-
-	.navleft, .navright {
-		display: unset;
-		min-width: 10%;
-	}
-
-	.navleft ul, .navright ul {
-		list-style: none;
-		margin-top: 25em;
-		position: fixed;
-		text-align: center;
-	}
-
-	.navleft li, .navright li {
-		margin-top: 20%;
-		font-size: 1em;
-		margin-right: 2.5em;
-	}
-
-	#info {
-		right: 10%;
-		max-width: 80%;
-		top: 7.9em;
-		bottom: 30%;
-	}
-
-	#info li {
-		font-size: 1.2em;
-	}
-
-
-	.folio {
-		max-width: 30%;
-
-	}
-
-	.mainFolio {
-		display: flex;
-		flex-wrap: wrap;
-		margin-bottom: 1em;
-	}
-
-	a {
-		font-size: 1em;
-	}
-	.contactInfo li {
-		margin-left: 38%;
-	}
-	.about {
-		margin-left: 20%;
-		margin-right: 20%;
-		line-height: 2.3em;
-	}
-
-	.second {
-		margin-bottom: 6em;
-	}
-
-	.ariel {
-		width: 60%;
-		margin-right: 20%;
-		margin-left: 20%;
-	}
-
-	.portInfo ul {
-		font-size: 1.2em;
-	}
-
-
-}
-
-@media only screen and (min-width: 1250px) {
-
-	.folio {
-		max-width: 48%;
-
-	}
-
-	.navleft li, .navright li {
-		font-size: 1.3em;
-		margin-right: .9em;
-	}
-
-}
+@import "media_queries";

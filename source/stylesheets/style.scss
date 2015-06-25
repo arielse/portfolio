@@ -150,11 +150,16 @@ a {
 	font-weight: normal;
 }
 
+.mainFolio {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .folio {
+	flex: 600px;
 	margin-right: 0.625em;
 	margin-left: 0.625em;
 	margin-bottom: 2em;
-
 }
 
 .folio img {

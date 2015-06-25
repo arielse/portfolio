@@ -16,3 +16,5 @@ gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 gem "font-awesome-middleman"
 
 gem 'middleman-gh-pages'
+
+gem 'bourbon'

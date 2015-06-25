@@ -1,5 +1,5 @@
 @import "font-awesome";
-
+@import 'bourbon';
 
 * {
 	margin: 0;
@@ -151,12 +151,12 @@ a {
 }
 
 .mainFolio {
-	display: flex;
-	flex-wrap: wrap;
+	@include display(flex);
+	@include flex-wrap(wrap);
 }
 
 .folio {
-	flex: 600px;
+	@include flex(600px);
 	margin-right: 0.625em;
 	margin-left: 0.625em;
 	margin-bottom: 2em;

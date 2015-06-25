@@ -2,20 +2,20 @@
 
 @media only screen and (min-width: 768px)  {
 	body {
-		display: flex;
-    flex-direction: column;
+		@include display(flex);
+    @include flex-direction(column);
     min-height: 100vh;
 	}
 
   .container {
-    display: flex;
-    flex: 1;
+    @include display(flex);
+    @include flex(1);
   }
 
 	main {
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 200px;
+    @include flex-grow(1);
+    @include flex-shrink(0);
+    @include flex-basis(200px);
 	}
 
   .navleft, .navright {

@@ -12,7 +12,7 @@ body {
 	margin: auto;
 	font-family: menlo, monaco, monospace;
 	position: relative;
-	min-height: 35.65em;
+	min-height: 100vh;
 }
 
 .navleft, .navright {
@@ -48,10 +48,6 @@ h1 {
 	bottom: 0.25em;
 	right: 0.3em;
 	color: #333;
-	/*text-indent: 9em;
-	padding-top: 0.25em;
-	padding-right: 0.1em;*/
-
 }
 
 #navmob {

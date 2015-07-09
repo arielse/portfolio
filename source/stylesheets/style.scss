@@ -43,6 +43,10 @@ h1 {
 .about {
 	padding-right: 0.625em;
 	padding-left: 0.625em;
+
+	a {
+		font-size: inherit;
+	}
 }
 
 .second {

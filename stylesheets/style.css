@@ -2209,12 +2209,15 @@ h1 {
 .about {
   padding-right: 0.625em;
   padding-left: 0.625em; }
+  /* line 47, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+  .about a {
+    font-size: inherit; }
 
-/* line 48, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 52, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .second {
   margin-bottom: 3em; }
 
-/* line 54, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 58, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .fa-bars {
   position: absolute;
   top: 0.25em;
@@ -2222,7 +2225,7 @@ h1 {
   right: 0.3em;
   color: #333; }
 
-/* line 62, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 66, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 #navmob {
   position: absolute;
   top: 2.81em;
@@ -2233,30 +2236,30 @@ h1 {
   padding: 0px;
   transition: width 0.3s ease-in; }
 
-/* line 75, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 79, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 #navmob ul {
   list-style: none; }
 
-/* line 79, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 83, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 #navmob.hidden {
   width: 0px; }
 
-/* line 84, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 88, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 #navmob, .navright, .navleft {
   background-color: #e4fc43;
   text-decoration: none; }
 
-/* line 89, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 93, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 #navmob li {
   padding-top: 1.6em;
   text-align: center;
   min-width: 160px; }
 
-/* line 95, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 99, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 ul {
   text-align: center; }
 
-/* line 99, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 103, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 a {
   text-decoration: none;
   font-size: 1.25em;
@@ -2265,11 +2268,11 @@ a {
   font-weight: bold;
   text-transform: lowercase; }
 
-/* line 109, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 113, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .fa-home, .fa-comment, .fa-book, .fa-columns {
   font-size: 3.5em; }
 
-/* line 113, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 117, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .contactPic {
   width: 7.5em;
   height: 7.5em;
@@ -2279,34 +2282,34 @@ a {
   background-image: url(../images/me.png);
   margin-bottom: 1em; }
 
-/* line 123, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 127, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .contactInfo {
   text-align: left;
   margin: auto;
   width: 80%; }
 
-/* line 129, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 133, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .contactInfo ul {
   text-align: left;
   list-style-type: none;
   width: 100%;
   min-width: 80%; }
 
-/* line 137, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 141, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .contactInfo li {
   padding-top: .8em; }
 
-/* line 142, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 146, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .contactInfo i {
   font-size: 2.75em;
   padding-right: .5em;
   color: #0072bc; }
 
-/* line 149, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 153, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .contactInfo a {
   font-weight: normal; }
 
-/* line 153, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 157, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .mainFolio {
   display: -webkit-box;
   display: -moz-box;
@@ -2323,7 +2326,7 @@ a {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-/* line 158, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 162, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .folio {
   -webkit-box-flex: 500px;
   -moz-box-flex: 500px;
@@ -2336,31 +2339,31 @@ a {
   margin-left: 0.625em;
   margin-bottom: 2em; }
 
-/* line 165, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 169, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .folio img {
   box-sizing: border-box;
   width: 100%; }
 
-/* line 169, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 173, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .folio p {
   background-color: #e4fc43;
   line-height: 2.3em;
   text-align: center; }
 
-/* line 175, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 179, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .folio a {
   font-family: menlo, monaco, monospace;
   font-weight: normal; }
 
-/* line 180, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 184, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 #info.hidden {
   width: 0px; }
 
-/* line 184, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 188, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .folioLarge img {
   width: 100%; }
 
-/* line 188, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 192, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 #info {
   position: absolute;
   top: 11.25em;
@@ -2377,20 +2380,20 @@ a {
   width: 100%;
   opacity: 0.97; }
 
-/* line 205, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 209, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 #info p, #info li {
   min-width: 15em;
   padding: 10px;
   font-weight: normal;
   text-align: left; }
 
-/* line 212, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 216, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .ariel {
   width: 95%;
   margin-left: 2.5%;
   margin-right: 2.5%; }
 
-/* line 218, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 222, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 #resume {
   background-color: #e4fc43;
   padding: 1.5em;
@@ -2398,24 +2401,24 @@ a {
   font-weight: normal;
   border-radius: 2px; }
 
-/* line 226, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 230, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .resumeDiv {
   text-align: center;
   margin-top: 7em; }
 
-/* line 231, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 235, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .ariel1 {
   margin-bottom: 1em; }
 
-/* line 235, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+/* line 239, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
 .portInfo {
   margin-right: 5%;
   margin-left: 5%;
   line-height: 2em; }
-  /* line 240, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+  /* line 244, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
   .portInfo p {
     margin-bottom: 1.5em; }
-  /* line 244, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
+  /* line 248, /Users/Ariel/dev/portfolio/source/stylesheets/style.scss */
   .portInfo ul {
     list-style: disc;
     text-align: left;
